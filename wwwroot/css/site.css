@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.welcome {
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+    .welcome h1 {
+        margin-bottom: 1rem;
+    }
+
+    .welcome p {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+    }
+
+.image {
+    width: 30rem;
+    padding-bottom: 0;
+}
+
+.image-python {
+    height: 12rem;
+    width: 12rem;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills i {
+    color: #0d6efd;
+    font-size: 50px;
+}

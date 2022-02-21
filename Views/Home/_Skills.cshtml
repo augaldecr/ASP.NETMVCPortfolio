@@ -1,0 +1,13 @@
+﻿@model SkillsViewModel[]
+
+<div style="margin-top: -105px">
+
+    <div class="row justify-content-md-center text-center">
+
+        @foreach (var skill in Model)
+        {
+            <partial name="_Skill" model="skill" />
+        }
+
+    </div>
+</div>

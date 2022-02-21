@@ -1,0 +1,29 @@
+﻿@model SkillsViewModel
+
+<div class="col col-3 bg-white pt-3 skills" style="@Model.CSSClasses">
+    <i class="@Model.Icon"></i>
+    <h3>@Model.Title</h3>
+
+    <p>
+        @Model.Description
+    </p>
+
+    <p class="text-primary header">
+        Stack:
+    </p>
+
+    <p>
+        @Model.Stack
+    </p>
+
+    <p class="text-primary header">
+        Experiencia:
+    </p>
+
+    <ul>
+        @foreach (var item in Model?.Experience)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>

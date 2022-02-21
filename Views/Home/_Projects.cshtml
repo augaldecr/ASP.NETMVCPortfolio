@@ -1,0 +1,13 @@
+﻿@model IEnumerable<ProjectViewModel>
+
+@if (Model is not null)
+{
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var project in Model)
+            {
+                <partial name="_Project" model="project" />
+            }
+        </div>
+    </div>
+}

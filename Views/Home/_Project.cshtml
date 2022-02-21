@@ -1,0 +1,15 @@
+﻿@model ProjectViewModel
+
+<div class="col">
+    <div class="card h-100">
+        <img src="@Model.ImageURL" class="card-img-top" alt="imagen proyecto" />
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">@Model.Description</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="@Model.Link" target="_blank"
+               rel="noopener noreferrer">Visitar</a>
+        </div>
+    </div>
+</div>
